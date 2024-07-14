@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merchant Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">.Jharokha</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="merchant.html">Merchant</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="merchant">
+        <h2>Add New Product</h2>
+        <input type="text" id="productName" placeholder="Product Name">
+        <input type="text" id="productPrice" placeholder="Product Price">
+        <input type="text" id="productImage" placeholder="Image URL">
+        <button onclick="addProduct()">Add Product</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 HandiCraft. All rights reserved.</p>
+    </footer>
+
+    <script src="merchant.js"></script>
+</body>
+</html>
